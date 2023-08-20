@@ -1,0 +1,24 @@
+{
+  "name": "botbinance",
+  "version": "1.0.0",
+  "description": "conectarse con binance y ejecutar ordenes desde tradingview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+
+  },
+  "keywords": [
+    "binance",
+    "bot"
+  ],
+  "author": "luis ortiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-binance-api": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
